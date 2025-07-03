@@ -55,28 +55,6 @@ It provides separate interfaces for **Admin** and **Students**, enabling exam cr
 
 ---
 
-## 🧱 Project Structure
-
-OnlineExamSystem/
-│
-├── WebContent/
-│ ├── register.jsp
-│ ├── login.jsp
-│ ├── dashboard.jsp
-│ ├── admin.jsp
-│ └── exam.jsp
-│
-├── src/
-│ ├── com.model/
-│ │ └── UserVO.java, ExamVO.java, QuestionVO.java
-│ ├── com.dao/
-│ │ └── UserDAO.java, ExamDAO.java, QuestionDAO.java
-│ └── com.controller/
-│ └── RegController.java, LoginController.java, ExamController.java
-│
-├── lib/ (JAR dependencies like MySQL JDBC)
-└── README.md
-
 ## 🧪 How to Run
 
 1. **Clone or Download** the project.
